@@ -1,0 +1,174 @@
+*{
+    font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+}
+
+
+html,body{
+	margin: 0;
+	padding: 0;
+	font-family: "Lato";
+}
+
+header, footer{
+	background-color: #AAA;
+	color: white;
+	padding: 15px 30px;
+}
+
+header nav{
+	float: right;
+}
+
+header img{
+	height: 40px;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.5em;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+footer{
+	text-align: center;
+}
+
+main{
+	max-width: 1200px;
+	margin: auto;
+	padding: 45px 0;
+}
+
+main h1{
+	text-align: center;
+	margin-bottom: 45px;
+	text-transform: uppercase;
+}
+
+
+
+footer{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	height: 60px;
+	bottom: 0;
+}
+
+img{
+	max-width:100%;
+}
+
+
+.card{
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	margin-bottom: 40px;
+}
+
+.card tdiv,
+.card taside{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.card tdiv{
+	width: 35%;
+    margin-right: 5%;
+}
+
+.card taside{
+	width: 45%;
+}
+
+.card tp{
+	margin: 2px 0;
+}
+
+
+.logo{
+width: 50%;
+margin: auto;
+display: block;
+margin-bottom: 60px;
+}
+
+.conin{
+    display: inline-block;
+    width: 49%;
+    padding: 15px;
+    vertical-align: top;
+    border: solid thin grey;
+
+}
+
+.conin:first-of-type{
+	margin-right: 1%;
+}
+input{	
+	margin-bottom: 15px;
+}
+
+input{
+	width: 100%;
+	padding: 16px;
+	font-size: 20px;
+	box-shadow: none;
+	border: 1px solid grey;
+  	border-radius: 4px;
+}
+
+button {
+	font-size: 20px;
+	width: 100%;
+  	background-color: #4CAF50;
+  	border: none;
+  	color: white;
+  	padding: 16px;
+  	border: 1px solid #4CAF50;
+ 	border-radius: 4px;
+}
+form{
+    display: block;
+    margin-top: 0em;
+}
+
+img{
+	max-width:100%;
+}
+.conin:last-of-type{
+	margin-left: 1%;
+}
+
+
+body{
+	position: relative;
+	padding-bottom: 60px;
+	min-height: 100vh;
+}
+
+footer{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	height: 60px;
+	bottom: 0;
+}
+
+
