@@ -1,40 +1,36 @@
 # Pokedex <img width="50px" height="50px" src="https://media.tenor.com/rbx3ph5SLRUAAAAj/pikachu-pokemon.gif">
-Site web permettant la gestion d'un catalogue de Pokemon par différents utilisateurs référencés.
+A website allowing the management of a Pokemon catalog by different registered users.
 ![Illustration](Pokedex/images/illustration.png)
 
-<h1>Fonctionnalités</h1>
+<h1>Features</h1>
 <p>
-    - Inscription et connexion des utilisateurs. <br>
-    - Ajout de nouveaux Pokemons à la collection de l'utilisateur. <br>
-    - Affichage de la collection de Pokemons, classés par nom. <br>
-    - Affichage du profil de l'utilisateur. <br>
-    - Structure du projet
+    - User registration and login. <br>
+    - Adding new Pokemons to the user's collection. <br>
+    - Displaying the collection of Pokemons, sorted by name. <br>
+    - Displaying the user's profile. <br>
+    - Project Structure
 </p>
-
-<h1>Le projet est organisé :</h1>
+<h1>The project is organized as follows:</h1>
 <p>
-- /includes : Dossier contenant les fichiers d'inclusion PHP. <br>
-- index.php : Page d'accueil de l'application. <br>
-- connexion.php : Page de connexion et d'inscription des utilisateurs. <br>
-- collection.php : Page affichant la collection de Pokemons de l'utilisateur. <br>
-- add_pokemon.php : Page permettant d'ajouter un nouveau Pokemon à la collection. <br>
-- profile.php : Page affichant le profil de l'utilisateur.
+- /includes : Directory containing PHP inclusion files. <br>
+- index.php : Application home page. <br>
+- connexion.php : User login and registration page. <br>
+- collection.php : Page displaying the user's Pokemon collection. <br>
+- add_pokemon.php : Page allowing to add a new Pokemon to the collection. <br>
+- profile.php : Page displaying the user's profile.
 </p>
-
-<h1>Base de données</h1>
-<h5>Le projet utilise une base de données MySQL avec deux tables principales :</h5>
+<h1>Database</h1>
+<h5>The project uses a MySQL database with two main tables:</h5>
 <p>
-- users : Stocke les informations sur les utilisateurs. <br> 
-- pokemons : Stocke les informations sur les Pokemons, liés à un utilisateur. <br>
+- users : Stores information about users. <br> 
+- pokemons : Stores information about Pokemons, linked to a user. <br>
 </p>
-
 <h1>Installation</h1>
 <p>
-1] Clonez ce dépôt sur votre machine locale. <br>
-2] Importez la structure de la base de données à l'aide du fichier SQL fourni. <br>
-3] Assurez-vous d'avoir un serveur PHP et MySQL installé sur votre machine. <br>
-4] Configurez les paramètres de connexion à la base de données dans le fichier db.php.</p>
-
-<h1>Auteur</h1>
+1] Clone this repository to your local machine. <br>
+2] Import the database structure using the provided SQL file. <br>
+3] Make sure you have a PHP and MySQL server installed on your machine. <br>
+4] Configure the database connection settings in the db.php file.</p>
+<h1>Author</h1>
 <p>
-Ce projet a été développé par Asma dans le cadre du TP Pokedex.</p>
+This project was developed by Asma MOUGNI as part of the Pokedex TP.</p>
